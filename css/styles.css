@@ -38,9 +38,30 @@
   font-weight: bold;
 }
 
+ul.navMenu li {
+  float: left;
+  padding: 0 5px;
+  list-style: none;
+  border-right: 1px solid #888;
+}
+
+.copy ul li {
+  display: inline;
+  padding: 3px;
+}
+
 .navbar ul li:first-child,
 .navbar ul li:last-child {
   font-size: 20px;
+}
+
+.navbar ul li:hover {
+  background-image: linear-gradient(to top, rgb(51, 48, 48) 50%, rgb(36, 34, 34));
+  cursor: pointer;
+}
+
+ul.navMenu li:last-child {
+  border-right: none;
 }
 
 .navbar ul li:last-child:hover {
@@ -72,9 +93,8 @@
   box-shadow: 0 -1px 1px #555;
 }
 
-.navbar ul li:hover {
-  background-image: linear-gradient(to top, rgb(51, 48, 48) 50%, rgb(36, 34, 34));
-  cursor: pointer;
+footer a {
+  color: #08c;
 }
 
 .navbar ul li a {
@@ -114,6 +134,10 @@ section {
   z-index: 1;
 }
 
+main div {
+  width: 100%;
+}
+
 header div:first-child {
   height: 90px;
   overflow: hidden;
@@ -123,6 +147,10 @@ header div:first-child {
 header div:last-child {
   height: 60px;
   overflow: hidden;
+}
+
+main div img {
+  width: 100%;
 }
 
 header div:last-child img {
@@ -138,22 +166,10 @@ main {
   grid-row-gap: 0;
 }
 
-main div {
-  width: 100%;
-}
-
-main div img {
-  width: 100%;
-}
-
 footer {
   width: 65%;
   margin: 0 auto;
   font-size: 0.7rem;
-}
-
-footer a {
-  color: #08c;
 }
 
 footer .left {
@@ -173,21 +189,14 @@ ul.navMenu {
   margin: 10px 0;
 }
 
-ul.navMenu li {
-  float: left;
-  padding: 0 5px;
-  list-style: none;
-  border-right: 1px solid #888;
-}
-
-ul.navMenu li:last-child {
-  border-right: none;
-}
-
 ul.navMenu li a {
   border: none;
   font-size: 0.7rem;
   color: #08c;
+  text-decoration: none;
+}
+
+.copy ul li a {
   text-decoration: none;
 }
 
@@ -219,15 +228,6 @@ footer .copy {
   position: absolute;
   left: 41%;
   margin: 0;
-}
-
-.copy ul li {
-  display: inline;
-  padding: 3px;
-}
-
-.copy ul li a {
-  text-decoration: none;
 }
 
 .copy ul li a:hover {
