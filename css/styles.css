@@ -140,3 +140,26 @@ main div {
 main div img {
   width: 100%;
 }
+
+footer {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 0.7rem;
+}
+
+footer a {
+  color: #08c;
+}
+
+footer .left {
+  float: left;
+  margin-top: 11px;
+  color: #6e6e6e;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+
+footer .menu {
+  float: left;
+  margin-top: 10px;
+}
