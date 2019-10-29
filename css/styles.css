@@ -85,3 +85,42 @@
   display: block;
   width: 100%;
 }
+
+section {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.3));
+  z-index: 1;
+}
+
+header div:first-child {
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+header div:last-child {
+  height: 60px;
+  overflow: hidden;
+}
+
+header div:last-child img {
+  height: 100%;
+  margin-top: 28px;
+}
