@@ -73,12 +73,12 @@ ul.navMenu li:last-child {
   position: relative;
 }
 
-.search-form .icon i {
+.search-form .icon img {
   position: absolute;
   z-index: 3;
   top: 30%;
   left: 15%;
-  font-size: 14px;
+  width: 16px;
   color: #fff;
 }
 
@@ -124,6 +124,10 @@ section {
   position: relative;
 }
 
+section h2 {
+  display: none;
+}
+
 .layout {
   position: absolute;
   top: 0;
@@ -134,31 +138,43 @@ section {
   z-index: 1;
 }
 
-main div {
+header {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.bottom div {
   width: 100%;
 }
 
-header div:first-child {
+.content {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+.content div:first-child {
   height: 90px;
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-header div:last-child {
+.content div:last-child {
   height: 60px;
   overflow: hidden;
 }
 
-main div img {
+.bottom div img {
   width: 100%;
 }
 
-header div:last-child img {
+.content div:last-child img {
   height: 100%;
   margin-top: 28px;
 }
 
-main {
+.bottom {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -232,4 +248,14 @@ footer .copy {
 
 .copy ul li a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1400px) {
+  header {
+    left: 10%;
+  }
+
+  .content {
+    left: 0%;
+  }
 }
