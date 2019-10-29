@@ -73,6 +73,10 @@ ul.navMenu li:last-child {
   position: relative;
 }
 
+.bottom div img {
+  width: 100%;
+}
+
 .search-form .icon img {
   position: absolute;
   z-index: 3;
@@ -163,10 +167,6 @@ header {
 .content div:last-child {
   height: 60px;
   overflow: hidden;
-}
-
-.bottom div img {
-  width: 100%;
 }
 
 .content div:last-child img {
