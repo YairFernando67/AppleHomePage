@@ -43,6 +43,11 @@
   font-size: 20px;
 }
 
+.navbar ul li:last-child:hover {
+  background-image: none;
+  cursor: none;
+}
+
 .search-form {
   position: relative;
 }
