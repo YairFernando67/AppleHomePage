@@ -124,3 +124,19 @@ header div:last-child img {
   height: 100%;
   margin-top: 28px;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 4px;
+  grid-row-gap: 0;
+}
+
+main div {
+  width: 100%;
+}
+
+main div img {
+  width: 100%;
+}
