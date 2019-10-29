@@ -163,3 +163,68 @@ footer .menu {
   float: left;
   margin-top: 10px;
 }
+
+ul.navMenu {
+  margin: 10px 0;
+}
+
+ul.navMenu li {
+  float: left;
+  padding: 0 5px;
+  list-style: none;
+  border-right: 1px solid #888;
+}
+
+ul.navMenu li:last-child {
+  border-right: none;
+}
+
+ul.navMenu li a {
+  border: none;
+  font-size: 0.7rem;
+  color: #08c;
+  text-decoration: none;
+}
+
+ul.navMenu li:hover a {
+  text-decoration: underline;
+  background-image: none;
+}
+
+ul.navMenu li a:hover {
+  text-decoration: underline;
+  background-image: none;
+}
+
+footer .copy {
+  color: #3f3f3f;
+  width: 480px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.copy p {
+  float: left;
+  margin: 0;
+}
+
+.copy ul {
+  list-style: none;
+  padding-left: -34px;
+  position: absolute;
+  left: 41%;
+  margin: 0;
+}
+
+.copy ul li {
+  display: inline;
+  padding: 3px;
+}
+
+.copy ul li a {
+  text-decoration: none;
+}
+
+.copy ul li a:hover {
+  text-decoration: underline;
+}
