@@ -1,0 +1,261 @@
+/* GLOBAL */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+/* END */
+
+.navbar {
+  z-index: 2;
+  margin-bottom: 70px;
+  height: 40px;
+  width: 800px;
+  border: 1px solid #6f6f6f;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #6f6f6f 40%, #3f3f3f);
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0 0;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  flex: 3;
+  text-align: center;
+  display: flex;
+  font-size: 14px;
+  height: 38px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+ul.navMenu li {
+  float: left;
+  padding: 0 5px;
+  list-style: none;
+  border-right: 1px solid #888;
+}
+
+.copy ul li {
+  display: inline;
+  padding: 3px;
+}
+
+.navbar ul li:first-child,
+.navbar ul li:last-child {
+  font-size: 20px;
+}
+
+.navbar ul li:hover {
+  background-image: linear-gradient(to top, rgb(51, 48, 48) 50%, rgb(36, 34, 34));
+  cursor: pointer;
+}
+
+ul.navMenu li:last-child {
+  border-right: none;
+}
+
+.navbar ul li:last-child:hover {
+  background-image: none;
+  cursor: none;
+}
+
+.search-form {
+  position: relative;
+}
+
+.bottom div img {
+  width: 100%;
+}
+
+.search-form .icon img {
+  position: absolute;
+  z-index: 3;
+  top: 30%;
+  left: 15%;
+  width: 16px;
+  color: #fff;
+}
+
+.search-form .search-input {
+  border-radius: 15px;
+  width: 98px;
+  padding: 3px;
+  margin: 10px 10px;
+  height: 19px;
+  background: transparent;
+  border: 1px solid #999;
+  box-shadow: 0 -1px 1px #555;
+}
+
+footer a {
+  color: #08c;
+}
+
+.navbar ul li a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  text-decoration: none;
+  border-right: 1px solid #555;
+}
+
+.navbar ul li a span {
+  display: block;
+  width: 100%;
+}
+
+section {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+section h2 {
+  display: none;
+}
+
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0.3));
+  z-index: 1;
+}
+
+header {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.bottom div {
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+.content div:first-child {
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.content div:last-child {
+  height: 60px;
+  overflow: hidden;
+}
+
+.content div:last-child img {
+  height: 100%;
+  margin-top: 28px;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 4px;
+  grid-row-gap: 0;
+}
+
+footer {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 0.7rem;
+}
+
+footer .left {
+  float: left;
+  margin-top: 11px;
+  color: #6e6e6e;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+
+footer .menu {
+  float: left;
+  margin-top: 10px;
+}
+
+ul.navMenu {
+  margin: 10px 0;
+}
+
+ul.navMenu li a {
+  border: none;
+  font-size: 0.7rem;
+  color: #08c;
+  text-decoration: none;
+}
+
+.copy ul li a {
+  text-decoration: none;
+}
+
+ul.navMenu li:hover a {
+  text-decoration: underline;
+  background-image: none;
+}
+
+ul.navMenu li a:hover {
+  text-decoration: underline;
+  background-image: none;
+}
+
+footer .copy {
+  color: #3f3f3f;
+  width: 480px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.copy p {
+  float: left;
+  margin: 0;
+}
+
+.copy ul {
+  list-style: none;
+  padding-left: -34px;
+  position: absolute;
+  left: 41%;
+  margin: 0;
+}
+
+.copy ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1400px) {
+  header {
+    left: 10%;
+  }
+
+  .content {
+    left: 0%;
+  }
+}
