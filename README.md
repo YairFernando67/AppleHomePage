@@ -1,12 +1,14 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield2]][linkedin-url2]
+[![Hireable][hireable]][hireable-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
-
-  <h3 align="center">Apple Home Page</h3>
+  <h2 align="center">Apple Home Page</h2>
 
   <p align="center">
     Project developed with HTML5 and CSS3 based on Apple Home Page.
@@ -14,8 +16,11 @@
     <a href="https://github.com/YairFernando67/AppleHomePage"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="https://github.com/YairFernando67/AppleHomePage">View Demo</a>
+    ·
     <a href="https://github.com/YairFernando67/AppleHomePage/issues">Report Bug</a>
     ·
+    <a href="https://github.com/YairFernando67/AppleHomePage/issues">Request Feature</a>
   </p>
 </p>
 
@@ -27,7 +32,8 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [Contributing](#Contributing)
+* [Show your support](#Show-your-support)
 
 
 
@@ -47,17 +53,46 @@ The project was developed using these tools and technologies.
 
 
 <!-- CONTACT -->
+
 ## Contact
 
-Yair Fernando Facio Fraga - [YairFernando67](https://github.com/YairFernando67) - yair.facio11@gmail.com  
+👤 **Yair Fernando Facio**
+
+- Github: [@YairFernando67](https://github.com/YairFernando67)
+- Twitter: [@YairFernando18](https://twitter.com/YairFernando18)
+- Linkedin: [softwaredeveloperyairfacio](https://www.linkedin.com/in/softwaredeveloperyairfacio/)
+- Email: [yair.facio11@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yair.facio11@gmail.com)
+- Portfolio: [softwaredeveloper](https://yairfernando67.github.io/Portfolio/)
+
+<p align="center">
 
 Project Link: [https://github.com/YairFernando67/AppleHomePage](https://github.com/YairFernando67/AppleHomePage)
 
+</p>
 
+## 🤝 Contributing
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Normalize.css](https://necolas.github.io/normalize.css/)
-* [Microverse](https://www.microverse.org/)
+Contributions, issues and feature requests are welcome!
 
+Feel free to check the [issues page](https://github.com/YairFernando67/AppleHomePage/issues).
 
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/YairFernando67/AppleHomePage.svg?style=flat-square
+[contributors-url]: https://github.com/YairFernando67/AppleHomePage/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/YairFernando67/AppleHomePage.svg?style=flat-square
+[forks-url]: https://github.com/YairFernando67/AppleHomePage/network/members
+[stars-shield]: https://img.shields.io/github/stars/YairFernando67/AppleHomePage.svg?style=flat-square
+[stars-url]: https://github.com/YairFernando67/AppleHomePage/stargazers
+[issues-shield]: https://img.shields.io/github/issues/YairFernando67/AppleHomePage.svg?style=flat-square
+[issues-url]: https://github.com/YairFernando67/AppleHomePage/issues
+[license-shield]: https://img.shields.io/github/license/YairFernando67/AppleHomePage.svg?style=flat-square
+[license-url]: https://github.com/YairFernando67/AppleHomePage/blob/master/LICENSE.txt
+[linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url2]: https://www.linkedin.com/in/softwaredeveloperyairfacio/
+[hireable]: https://cdn.rawgit.com/hiendv/hireable/master/styles/flat/yes.svg
+[hireable-url]: https://www.linkedin.com/in/softwaredeveloperyairfacio/
